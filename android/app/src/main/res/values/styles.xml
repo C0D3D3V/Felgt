@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green800</item>
+        <item name="colorPrimaryDark">@color/green900</item>
+        <item name="colorAccent">@color/blue_a100</item>
+
+
+        <item name="color_background_primary">@color/grey800</item>
+        <item name="color_background_secondary">@color/grey900</item>
+        <item name="color_background_tertiary">@color/grey700</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">@color/grey300</item>
+    </style>
+
+    <style name="Felgt.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/green600</item>
+        <item name="colorPrimaryDark">@color/green700</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="Felgt.Dialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/green600</item>
+        <item name="colorPrimaryDark">@color/green700</item>
+        <item name="colorAccent">@color/blue_a200</item>
+        <item name="color_background_primary">@color/grey50</item>
+        <item name="divider">@color/black12</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

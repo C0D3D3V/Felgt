@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="licence">
+            Felgt
+            \n\nThis program is free software: you can redistribute it and/or modify
+			it under the terms of the GNU General Public License as published by
+			the Free Software Foundation, either version 3 of the License, or
+			(at your option) any later version.
+			\n\nThis program is distributed in the hope that it will be useful,
+			but WITHOUT ANY WARRANTY; without even the implied warranty of
+			MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+			GNU General Public License for more details.
+			\n\nYou should have received a copy of the GNU General Public License
+			along with this program. If not, see https://www.gnu.org/licenses
+        \n\n\nLibraries:
+			\n\nhttps://github.com/jdamcd/android-crop\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/zxing/zxing\n(Apache License, Version 2.0)
+    </string>
+    <string name="app_name">Felgt</string>
+
+    <string name="lbWelcome">Welcome to Felgt!</string>
+    <string name="lbAppInformation">
+        Felgt was developed by Lukas Feltes and Daniel Vogt as part of a student research project at the Baden-Württemberg Cooperative State University.
+        \nThis app is still under development. We are looking forward to your support. Please send suggestions and criticism to felgt@0xd2.cf
+    </string>
+    <string name="lbEnterYourName">Please enter your full name.</string>
+    <string name="lbNoConatcs">You have not currently saved any contacts</string>
+    <string name="lbYourFingerprint">Your fingerprint\n30593013 06072a86 48ce3d02 0106082a 8648ce3d 03010703 420004e0 7573d30d</string>
+    <string name="lbYourFingerprintExpand">Your fingerprint\n%1$s</string>
+    <string name="lbImportingContact">Importing Contact</string>
+    <string name="lbContactName">Name:</string>
+    <string name="lbFriendFingerprint">%1$s fingerprint:\n%2$s</string>
+    <string name="lbNoMessages">Currently no messages have been sent</string>
+    <string name="lbNoContacsToDecryptFor">Currently you do not have any contacts for which you can decrypt the message.</string>
+
+
+    <string name="btnSetIdentity">Let\'s get started!</string>
+    <string name="btScanContact">Scan Contact</string>
+    <string name="btShareContact">Share Contact</string>
+    <string name="btSaveContactDetails">Save Changes</string>
+
+    <string name="txUsername">Name</string>
+
+    <string name="txChatboxHint">Enter Message...</string>
+    <string name="btSend">Send</string>
+
+    <string name="menuAbout">About</string>
+    <string name="create_contact_menu_addViewText">Add Contact via received URI</string>
+    <string name="chat_menu_contactDetails">Contact details</string>
+    <string name="chat_menu_deleteContact">Delete contact</string>
+    <string name="chat_menu_deleteAllMessages">Delete history</string>
+    <string name="message_menu_delete">Delete message</string>
+    <string name="message_menu_copy">Copy message</string>
+    <string name="chat_menu_encryptToHexString">Encrypt to Hex-String</string>
+    <string name="chat_menu_decryptToHexString">Decrypt from Hex-String</string>
+
+
+    <string name="ContactInoutDialogTitle">Enter the contact you received here</string>
+    <string name="DialogAddContact">Add Contact</string>
+    <string name="DialogCancel">Cancel</string>
+    <string name="DialogShare">Share</string>
+    <string name="DialogNo">No</string>
+    <string name="DialogYes">Yes</string>
+    <string name="DialogAreYouSure">Are you sure?</string>
+
+    <string name="activity_decrypt_for">Choose the right contact</string>
+
+    <string name="qr_code_scanner_needs_access_to_camera">The QR code scanner needs access to the camera</string>
+
+
+    <string name="CouldNotCreateKeyPair">Please excuse us, we were unable to create a key pair.</string>
+    <string name="youNeedToSetAUsername">Please enter a username!</string>
+    <string name="clickHereToStartAConversation">Click here to start a new conversation!</string>
+    <string name="share_using">Share using:</string>
+    <string name="myFelgtContactInfos">My Felgt Contact information:</string>
+    <string name="couldNotShareOwnContact">Sorry an error occurred, your contact could not be shared!</string>
+    <string name="invalidUri">Ups there must have been something going wrong. Please check the link again.</string>
+    <string name="alreadyInContactList">This contact is already in your contact list.</string>
+    <string name="createFirstAccount">Please create an account first and then return here!</string>
+    <string name="couldNotAddContact">Oops, something must have gone wrong. This contact could not be added.</string>
+    <string name="dontTryToAddYourself">Nice Try! Try not to add yourself as a contact.</string>
+    <string name="ContactDetailsSaved">Contact details have been saved.</string>
+    <string name="couldNotGenerateQRCode">Oops, something must have gone wrong. No QR code could be generated.</string>
+    <string name="fileNotFound">Oops, something must have gone wrong. The selected file was not found.</string>
+    <string name="ioException">Oops, something must have gone wrong. The file could not be copied.</string>
+    <string name="notEncrypted">This is not an encrypted Massage!</string>
+
+    <string name="messageCopied">Message copied!</string>
+    <string name="unableToStartRecording">Unable to start recording!</string>
+    <string name="unableToSaveRecording">Unable to save recording!</string>
+    <string name="noPermissionToRecord">You must allow permission record audio to your mobile device</string>
+    <string name="checksumDoesNotMatch">Checksum does not match!</string>
+    <string name="noChecksumFound">No checksum found!</string>
+    <string name="couldNotEncryptMessage">Oops, something must have gone wrong. This message could not be encrypted!</string>
+    <string name="missingFilemanager">Please install a File Manager</string>
+    <string name="canNotOpenFile">Oops, something must have gone wrong. It is not possible to open this file.</string>
+    <string name="sizeDoesNotMatch">Size does not match!</string>
+    <string name="headerDoesNotMatch">Header does not match!</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <!-- Contact Picture -->
+    <LinearLayout
+        android:id="@+id/llContactPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/image_bg"
+        android:clickable="false"
+        android:padding="3dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivContactPicture"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:clickable="false"
+            android:src="@drawable/default_avatar" />
+
+    </LinearLayout>
+
+    <!-- Contact Name -->
+    <TextView
+        android:id="@+id/lbContactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="false"
+        android:text="Contact"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintStart_toEndOf="@+id/llContactPicture"
+        app:layout_constraintTop_toTopOf="@+id/llContactPicture" />
+
+    <!-- Last Message -->
+    <TextView
+        android:id="@+id/lbLastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:text="@string/clickHereToStartAConversation"
+        android:textColor="#C5C592"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/llContactPicture"
+        app:layout_constraintTop_toBottomOf="@id/lbContactName" />
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/lbLastSeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:clickable="false"
+        android:gravity="end"
+        android:text=""
+        android:textColor="#5F7C81"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/llContactPicture" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="false"
+        android:src="@drawable/arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
