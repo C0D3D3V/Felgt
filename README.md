@@ -13,6 +13,8 @@
 
 ## The green button indicates that the message has been completely hidden.
 <img src="Images/004%20Daten%20vollständig%20versteckt.png?raw=true" width="200">
+Clicking on Share opens the normal share menu to share the recorded voice message. 
+Received voice messages can either be selected manually in the chat window with the left button or by sharing the voice message with the Felgt app.
 
 
 ## You can access the contact settings via the chat menu.
